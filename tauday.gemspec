@@ -9,4 +9,11 @@ Gem::Specification.new do |s|
   s.files   = ['lib/tauday.rb']
   s.homepage = 'http://rubygems.org/gems/tauday'
   s.license = 'Simplified BSD License'
+
+  s.has_rdoc = true
+  s.rdoc_options <<
+      '--title' << 'TAU: The True Circle Constant' <<
+      '--main' << 'Tau' <<
+      '--line-numbers' <<
+      '--tab-width' << '2'
 end
