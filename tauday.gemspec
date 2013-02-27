@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.email   = 'matthew@kerwin.net.au'
   s.files   = ['lib/tauday.rb']
   s.homepage = 'http://rubygems.org/gems/tauday'
-  s.license = 'Apache License 2.0'
+  s.license = 'Simplified BSD License'
 end
