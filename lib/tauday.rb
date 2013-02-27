@@ -8,17 +8,16 @@ module BigMath
   ##
   # Computes the value of tau to the specific number of digits of precision.
   #
-  # = Parameters
-  # * +prec+ - The number of decimal digits of precision in the computed value.
-  #   Must be a positive integer (otherwise an ArgumentError is raised).
+  # @param [Integer] prec the number of decimal digits of precision in the computed value.
+  # @return BigDecimal the calculated value
+  # @raise [ArgumentError] if +prec+ is not positive
   #
-  # = Example
-  #
+  # @example
   #   require 'bigdecimal'
   #   require 'bigdecimal/math'
-  #   include BigMath
+  #   use BigMath
   #
-  #   puts TAU(100)
+  #   puts TAU(150)
   #
   def TAU(prec)
     raise ArgumentError, "Zero or negative argument for TAU" if prec <= 0
