@@ -9,13 +9,13 @@ module BigMath
   # Computes the value of tau to the specific number of digits of precision.
   #
   # @param [Integer] prec the number of decimal digits of precision in the computed value.
-  # @return BigDecimal the calculated value
+  # @return [BigDecimal] the computed value
   # @raise [ArgumentError] if +prec+ is not positive
   #
   # @example
   #   require 'bigdecimal'
   #   require 'bigdecimal/math'
-  #   use BigMath
+  #   include BigMath
   #
   #   puts TAU(150)
   #
