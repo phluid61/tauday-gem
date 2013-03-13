@@ -18,3 +18,7 @@ puts TAU(15)
 ```
 
 See http://tauday.com to find out what it's all about.
+
+----
+
+[![Build Status](https://travis-ci.org/phluid61/tauday-gem.png)](https://travis-ci.org/phluid61/tauday-gem)
