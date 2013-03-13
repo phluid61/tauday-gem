@@ -1,13 +1,11 @@
-#!/usr/bin/ruby --
-
 require 'test/unit'
-
 require 'bigdecimal'
 require 'bigdecimal/math'
-require 'tauday'
 
-class TestTauday < Test::Unit::TestCase
-	def test_tau
+$VERBOSE = true
+require "#{File.dirname File.dirname(__FILE__)}/lib/tauday"
+class Test_tauday < Test::Unit::TestCase
+	def test_math_tau
 		# 6.283185307179586..
 		assert_equal(Math::TAU, Math::PI*2.0)
 	end
