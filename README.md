@@ -21,4 +21,6 @@ See http://tauday.com to find out what it's all about.
 
 ----
 
-[![Build Status](https://travis-ci.org/phluid61/tauday-gem.png)](https://travis-ci.org/phluid61/tauday-gem)
+* [Contributor Code of Conduct](code_of_conduct.md)
+* [![Build Status](https://travis-ci.org/phluid61/tauday-gem.png)](https://travis-ci.org/phluid61/tauday-gem)
+
