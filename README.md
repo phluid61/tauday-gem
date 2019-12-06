@@ -17,7 +17,7 @@ include BigMath
 puts TAU(15)
 ```
 
-See http://tauday.com to find out what it's all about.
+See https://tauday.com to find out what it's all about.
 
 ----
 
