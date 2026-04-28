@@ -22,6 +22,11 @@ puts TAU(15)
 
 See https://tauday.com to find out what it's all about.
 
+## Contributing
+
+We require all contributors to comply with the [Developer Certificate of Origin](https://developercertificate.org/). This ensures that all contributions are properly licensed and attributed.
+
+
 ## Contributor Code of Conduct
 
 This repository is subject to a [Contributor Code of Conduct](code_of_conduct.md)
