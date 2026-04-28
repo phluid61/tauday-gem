@@ -1,6 +1,9 @@
 Tau: the true circle constant
 =============================
 
+[![Gem Version](https://badge.fury.io/rb/tauday.png)](http://badge.fury.io/rb/tauday)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v3.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
 This gem handily defines the _true_ circle constant:
 
 ```ruby
