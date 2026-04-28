@@ -22,8 +22,18 @@ puts TAU(15)
 
 See https://tauday.com to find out what it's all about.
 
-----
+## Contributor Code of Conduct
 
-* [Contributor Code of Conduct](code_of_conduct.md)
-* [![Build Status](https://travis-ci.org/phluid61/tauday-gem.png)](https://travis-ci.org/phluid61/tauday-gem)
+This repository is subject to a [Contributor Code of Conduct](code_of_conduct.md)
+adapted from the [Contributor Covenant][cc], version 3.0, available at
+<https://www.contributor-covenant.org/version/3/0/>
+
+
+[cc]: https://www.contributor-covenant.org
+
+
+## Licence
+
+This project is licensed under the ISC licence. See [LICENSE](LICENSE)
+for details
 
