@@ -2,18 +2,20 @@
 layout: default
 title: "Tau: the true circle constant"
 ---
-<h1>Tau: the true circle constant</h1>
+<h1><a href="#tau-the-true-circle-constant" aria-hidden="true" class="anchor" id="tau-the-true-circle-constant"></a>Tau: the true circle constant</h1>
+<p><a href="http://badge.fury.io/rb/tauday"><img src="https://badge.fury.io/rb/tauday.png" alt="Gem Version" /></a>
+<a href="code_of_conduct.html"><img src="https://img.shields.io/badge/Contributor%20Covenant-v3.0%20adopted-ff69b4.svg" alt="Contributor Covenant" /></a></p>
 <p>This gem handily defines the <em>true</em> circle constant:</p>
-<pre><code class="language-ruby">Math::TAU #= 6.283185307179586..
-</code></pre>
+<pre lang="ruby" style="background-color:#2b303b;"><code><span style="color:#ebcb8b;">Math</span><span style="color:#c0c5ce;">::TAU </span><span style="color:#65737e;">#= 6.283185307179586..
+</span></code></pre>
 <p>Additionally it expands the BigDecimal/BigMath module:</p>
-<pre><code class="language-ruby">require 'bigdecimal'
-require 'bigdecimal/math'
-include BigMath
-
-puts TAU(15)
-</code></pre>
-<p>See https://tauday.com to find out what it's all about.</p>
+<pre lang="ruby" style="background-color:#2b303b;"><code><span style="color:#8fa1b3;">require </span><span style="color:#c0c5ce;">&#39;</span><span style="color:#a3be8c;">bigdecimal</span><span style="color:#c0c5ce;">&#39;
+</span><span style="color:#8fa1b3;">require </span><span style="color:#c0c5ce;">&#39;</span><span style="color:#a3be8c;">bigdecimal/math</span><span style="color:#c0c5ce;">&#39;
+</span><span style="color:#8fa1b3;">include </span><span style="color:#bf616a;">BigMath
+</span><span style="color:#c0c5ce;">
+</span><span style="color:#96b5b4;">puts </span><span style="color:#bf616a;">TAU</span><span style="color:#c0c5ce;">(</span><span style="color:#d08770;">15</span><span style="color:#c0c5ce;">)
+</span></code></pre>
+<p>See <a href="https://tauday.com">https://tauday.com</a> to find out what it's all about.</p>
 <hr />
 <ul>
 <li><a href="code_of_conduct.html">Contributor Code of Conduct</a></li>
