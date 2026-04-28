@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Tau: the true circle constant"
+---
+<h1>Tau: the true circle constant</h1>
+<p>This gem handily defines the <em>true</em> circle constant:</p>
+<pre><code class="language-ruby">Math::TAU #= 6.283185307179586..
+</code></pre>
+<p>Additionally it expands the BigDecimal/BigMath module:</p>
+<pre><code class="language-ruby">require 'bigdecimal'
+require 'bigdecimal/math'
+include BigMath
+
+puts TAU(15)
+</code></pre>
+<p>See https://tauday.com to find out what it's all about.</p>
+<hr />
+<ul>
+<li><a href="code_of_conduct.html">Contributor Code of Conduct</a></li>
+<li><a href="https://travis-ci.org/phluid61/tauday-gem"><img src="https://travis-ci.org/phluid61/tauday-gem.png" alt="Build Status" /></a></li>
+</ul>
+<pre id="license" class="no-highlight">Copyright (c) 2013, Matthew Kerwin &lt;matthew@kerwin.net.au&gt;
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</pre>
